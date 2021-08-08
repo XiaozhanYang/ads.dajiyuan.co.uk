@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title id='id-title'>支付页面已取消</title>
-    <meta name="description" content="Donation checkout canceled page" />
+    <meta name="description" content="Payment checkout canceled page" />
 
     <meta name="viewport" content="width=device-width" />
 
@@ -32,8 +32,8 @@
         </header>
         <div class="sr-payment-summary completed-view">
           <h1 class="bigger-margin-bottom" id="id-payment-status">支付页面已取消</h1>
-          <h4 class="bigger-margin-top" id="id-email-confirmation">您可<a href="https://donation.dajiyuan.co.uk/">点击此处</a>来重新进行捐助。若有疑问，请通过以下方式联系我们。</h4>
-          <h4 class="bigger-margin-top" id="id-contact-information">电话：&#8288;+44(0)77 629 62326，邮&#8288;箱：&#8288;accounts_uk@epochtimes.com</h4>
+          <h4 class="bigger-margin-top" id="id-email-confirmation">您可<a href="https://ads.dajiyuan.co.uk/">点击此处</a>来重新进行捐助。若有疑问，请通过以下方式联系我们。</h4>
+          <h4 class="bigger-margin-top" id="id-contact-information">邮&#8288;箱：&#8288;accounts_uk@epochtimes.com</h4>
         </div>
       <div class="sr-content">
         <div class="pasha-image-stack">
@@ -106,7 +106,7 @@
         // Update main content
         pageTitle.textContent = '支付页面已取消';
         paymentStatus.textContent = '支付页面已取消';
-        emailConfirmation.innerHTML = `您可<a href="https://${SUBDOMAIN}/?checkout_language=${checkoutLanguage}">点击此处</a>来重新进行捐助。若有疑问，请通过以下方式联系我们。`;
+        emailConfirmation.innerHTML = `您可<a href="https://${SUBDOMAIN}/?checkout_language=${checkoutLanguage}">点击此处</a>来重新进行支付。若有疑问，请通过以下方式联系我们。`;
         contactInformation.textContent = '电话：'+TELEPHONE+'，邮箱：'+EMAIL; 
       }
 
@@ -119,9 +119,9 @@
         langEnglishBtn.style.zIndex = '9';
 
         // Update main content
-        pageTitle.textContent = 'Donation Payment Cancelled';
-        paymentStatus.textContent = 'Donation payment page cancelled';
-        emailConfirmation.innerHTML = `You can <a href="https://${SUBDOMAIN}/?checkout_language=${checkoutLanguage}">click here</a> to start donating again. If you have any question, please contact us by the following information.`;
+        pageTitle.textContent = 'Payment Cancelled';
+        paymentStatus.textContent = 'Payment processing page cancelled';
+        emailConfirmation.innerHTML = `You can <a href="https://${SUBDOMAIN}/?checkout_language=${checkoutLanguage}">click here</a> to start paying again. If you have any question, please contact us by the following information.`;
         contactInformation.textContent = `Tel: ${TELEPHONE}，Email: ${EMAIL}`;
       }
 

@@ -17,7 +17,7 @@ inputElRecurring.value = INITIAL_AMOUNT;
 document.getElementById("total-one-time").textContent = INITIAL_AMOUNT;
 document.getElementById("total-recurring").textContent = INITIAL_AMOUNT;
 
-// Set boundary for the amount of donation 
+// Set boundary for the amount of payment 
 document
   .getElementById("quantity-input-one-time")
   .addEventListener("change", function(evt) {
@@ -122,7 +122,7 @@ var handleResult = function(result) {
   }
 };
 
-// Submit button action for one time donation
+// Submit button action for one time payment
 basicPhotoButtonOneTime.addEventListener("click", function() {
   var quantityOneTime = parseInt(
     document.getElementById("quantity-input-one-time").value
@@ -139,12 +139,11 @@ basicPhotoButtonOneTime.addEventListener("click", function() {
       cancelUrl: DOMAIN + '/canceled.html?checkout_language='+checkoutLanguage,
       locale: checkoutLanguage,
       billingAddressCollection: 'required',
-      submitType: 'donate',
     })
     .then(handleResult);
 });
 
-// Submit button action for recurring donation
+// Submit button action for recurring payment
 basicPhotoButtonRecurring.addEventListener("click", function() {
   var quantityRecurring = parseInt(
     document.getElementById("quantity-input-recurring").value
@@ -161,7 +160,6 @@ basicPhotoButtonRecurring.addEventListener("click", function() {
       cancelUrl: DOMAIN + '/canceled.html?checkout_language='+checkoutLanguage,
       locale: checkoutLanguage,
       billingAddressCollection: 'required',
-      submitType: 'donate',
     })
     .then(handleResult);
 });
