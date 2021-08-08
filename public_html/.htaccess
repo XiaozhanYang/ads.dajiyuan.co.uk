@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Commented by SiteGround automated systems #AddHandler application/x-httpd-php56 .php .php5 .php4 .php3
