@@ -139,7 +139,6 @@ basicPhotoButtonOneTime.addEventListener("click", function() {
       cancelUrl: DOMAIN + '/canceled.html?checkout_language='+checkoutLanguage,
       locale: checkoutLanguage,
       billingAddressCollection: 'required',
-      submitType: 'donate',
     })
     .then(handleResult);
 });
@@ -161,7 +160,6 @@ basicPhotoButtonRecurring.addEventListener("click", function() {
       cancelUrl: DOMAIN + '/canceled.html?checkout_language='+checkoutLanguage,
       locale: checkoutLanguage,
       billingAddressCollection: 'required',
-      submitType: 'donate',
     })
     .then(handleResult);
 });
