@@ -372,7 +372,7 @@ pre {
 
 .pasha-image {
   text-align: center;
-  margin-top: 25spx;
+  margin-top: 25px;
 }
 
 .pasha-image img {
@@ -466,7 +466,7 @@ pre {
 .container {
   border: 1px solid #e8e8e8;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 20px;
   padding: 32px 28px;
   display: flex;
   flex-direction: column;
