@@ -63,6 +63,7 @@ function setContectLanguageAsChinese() {
   footnoteContent.innerHTML = 
    `<p>付款完成后您将通过邮箱收到我们的确认收据。您若有其他疑问或需要支付超过£1,000，请通过以下方式联系我们。</p>
     <p>邮箱地址：${EMAIL}， 电话：${TELEPHONE}</p>
+    <p>版權歸屬：頁面中所用圖標由網站<a href="https://www.flaticon.com">www.flaticon.com</a>作者<a href="https://www.flaticon.com/authors/surang">surang</a></p>
     <p></p>
     <p></p>
    `
@@ -115,6 +116,7 @@ function setContectLanguageAsEnglish() {
   footnoteContent.innerHTML = 
    `<p>After completing the payment you will receive the receipt from us by email. If you have any questions or would like to payment more than £1,000, please contact us by the following information.</p>
     <p>Email: ${EMAIL}, Telephone：${TELEPHONE}</p>
+    <p>Attribution：Icons in this page are made by <a href="https://www.flaticon.com/authors/surang">surang</a> from <a href="https://www.flaticon.com">www.flaticon.com</a></p>
     <p></p>
     <p></p>
     `
