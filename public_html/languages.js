@@ -52,9 +52,9 @@ function setContectLanguageAsChinese() {
   // Update word to readers
   wordToReadersContect.innerHTML = 
    `<h1>
-    大纪元谢谢您的合作
+    在大纪元發布您的廣告
     </h1>
-    <h3> —— 您的每一分支付将会点燃正义，点亮未来！</h3>
+    <h3> —— 將您的信息傳遞給我們活躍的讀者群！</h3>
    `
 
   // <p>大疫当前，了解真相最重要。您的支持可以让更多读者获得我们真实的资讯，也会帮助我们更加深入地探查真相。</p>
@@ -107,7 +107,7 @@ function setContectLanguageAsEnglish() {
    `<h1>
     Ads with The Epoch Times
     </h1>
-    <h3> — Support Independent Journalism, Truth, and Tradition!</h3>
+    <h3> — Delivery Your Information to Our Active Readers!</h3>
    `
 
   // <p>By donating, you are helping us to build an independent media that stands outside of any political interests.</p>
