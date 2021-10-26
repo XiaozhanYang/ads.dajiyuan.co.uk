@@ -107,7 +107,7 @@ function setContectLanguageAsEnglish() {
    `<h1>
     Ads with The Epoch Times
     </h1>
-    <h3> — Delivery Your Information to More of Our Active Readers!</h3>
+    <h3> -- Delivery Your Message to Our Active Reader Group!</h3>
    `
 
   // <p>By donating, you are helping us to build an independent media that stands outside of any political interests.</p>
